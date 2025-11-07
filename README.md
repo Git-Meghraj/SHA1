@@ -10,4 +10,4 @@ This repository contains a **C implementation of the SHA‑1 cryptographic hashi
 ## Features
 - Converts any input string into a 160-bit hash.
 - Handles short and long input strings.
-- Demonstrates the avalanche effect — even small changes in input produce completely different hashes.
+- Demonstrates the avalanche effect - even small changes in input produce completely different hashes.
