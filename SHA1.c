@@ -1,3 +1,16 @@
+/**
+ * @file sha1.c
+ * @brief C implementation of SHA-1 cryptographic hash function.
+ *
+ * This program demonstrates how SHA-1 converts any input string
+ * into a fixed 160-bit hash, showing concepts like message padding,
+ * bitwise rotations, and logical functions.
+ *
+ * @author Meghraj Tandurkar
+ * @date 2025
+ * @note SHA-1 is no longer recommended for new security-critical applications.
+ *       This implementation is for educational purposes.
+ */
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
@@ -131,3 +144,4 @@ int main() {
 
     return 0;
 }
+
